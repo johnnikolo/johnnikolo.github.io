@@ -1,3 +1,4 @@
+import dash0Logo from './assets/logos/dash0.jpg'
 import elasticLogo from './assets/logos/elastic.png'
 import netcompanyLogo from './assets/logos/netcompany.png'
 import linqLogo from './assets/logos/linq.png'
@@ -18,10 +19,21 @@ export const personal = {
 
 export const experience = [
   {
+    id: 'dash0',
+    company: 'Dash0',
+    role: 'Senior Product Engineer',
+    period: '09/2026 – Present',
+    location: 'Athens, Greece',
+    type: 'Full-stack',
+    color: '#f74b48',
+    logo: dash0Logo,
+    bullets: [],
+  },
+  {
     id: 'elastic',
     company: 'Elastic',
     role: 'Software Engineer',
-    period: '09/2025 – Present',
+    period: '09/2025 – 07/2026',
     location: 'Athens, Greece',
     type: 'Full-stack',
     color: '#00bfb3',
