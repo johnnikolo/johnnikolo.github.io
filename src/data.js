@@ -14,7 +14,7 @@ export const personal = {
   linkedin: 'https://www.linkedin.com/in/ioannis-nikolopoulos/',
   github: 'https://github.com/johnnikolo',
   resume: 'https://drive.google.com/file/d/1_tjlBQ-GaoIYsZA7O9YIo26tQEhQm-Eo/view?usp=sharing',
-  portfolio: 'https://johnnikolo.github.io/portfolio/',
+  portfolio: 'https://johnnikolo.github.io/',
 }
 
 export const experience = [

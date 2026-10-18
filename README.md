@@ -52,7 +52,4 @@ npm run dev       # http://localhost:5173
 
 ## Deployment
 
-```bash
-npm run build
-npx gh-pages -d dist --repo https://github.com/johnnikolo/johnnikolo.github.io --branch main
-```
+Pushes to `master` deploy automatically: [.github/workflows/deploy.yml](.github/workflows/deploy.yml) builds the site and publishes `dist` to the `gh-pages` branch, which GitHub Pages serves.
